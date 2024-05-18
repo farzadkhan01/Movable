@@ -1,0 +1,547 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+} */
+
+/* =========== Services information ============ */
+
+.services-hero-section {
+    background-image: url(../images/services-hero-section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.services-information {
+    padding-left: 30rem;
+    padding-right: 30rem;
+    text-align: center;
+    position: relative;
+}
+
+.services-padding {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-information img {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.services-caption h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: rgb(0, 0, 0, 1);
+    padding: 25px 0;
+}
+
+.services-main-para p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 1);
+}
+
+
+.members-caption p {
+    padding-bottom: 1rem;
+}
+
+.caption-area h3 {
+    text-align: start;
+}
+
+/* =========== transportation process ============ */
+
+.process {
+    background-color: #F3FEF6;
+    margin: 7rem 0 0 0;
+    padding-left: 38rem;
+    padding-right: 38rem;
+    padding-bottom: 5rem;
+}
+
+
+.process-upper-caption h3 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45.6px;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.process-upper-caption h5 {
+    font-size: 12.21px;
+    font-weight: 700;
+    line-height: 14.65px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.process-upper-caption p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.step-left {
+    background-color: #524632;
+    color: #34E867;
+    padding: 20px 20px 15px 15px;
+    margin: 0px 20px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.step-left h5 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.step-left h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.step-2 {
+    margin: 20px 0;
+}
+
+.step-4 {
+    margin-top: 20px;
+}
+
+.step-caption {
+    padding: 20px 0;
+    width: 60%;
+}
+
+.step-caption h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.step-caption p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+.step-icon {
+    width: 25%;
+}
+
+.step-icon img {
+    float: right;
+    margin-right: 30px;
+}
+
+/* ================ Features ================== */
+
+.features-caption {
+    color: rgba(0, 0, 0, 1);
+}
+
+.features-caption h3 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45.6px;
+    padding: 10px 0;
+}
+
+.features-caption h5 {
+    font-size: 12.21px;
+    font-weight: 700;
+    line-height: 14.65px;
+}
+
+.features-caption p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+.features-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 28rem;
+    padding-right: 28rem;
+    padding-top: 4rem;
+}
+
+.features-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 28rem;
+    padding-right: 28rem;
+    padding-top: 4rem;
+}
+
+.strategies {
+    text-align: center;
+    border: 2px solid #524632;
+    position: relative;
+
+}
+
+.strategies img {
+    position: absolute;
+    background-color: white;
+    top: -30px;
+    padding: 20px 20px;
+    left: 125px;
+}
+
+.strategies-caption {
+    padding: 40px 15px 15px 15px;
+}
+
+.strategies-caption h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.strategies-caption p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+.members-caption {
+    padding-bottom: 4rem;
+}
+
+.footer-contact-info p {
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ====================== Media Quary ====================== */
+
+/* ====================== Laptop - L ======================= */
+
+@media only screen and (max-width: 1440px) {
+
+
+
+    /* <!-- current section is services information --> */
+
+    .services-information {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+
+
+    /* <!-- current section is transpotation process --> */
+
+    .members-caption {
+        padding-top: 5rem;
+    }
+
+
+    .process {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+
+    /* <!-- current section is features --> */
+
+    .features-1 {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+
+    .features-2 {
+        padding-left: 12vw;
+        padding-right: 12vw;
+        padding-top: 3rem;
+    }
+}
+
+
+
+/* ====================== Media Quary ====================== */
+
+/* ====================== Laptop ======================= */
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    /* <!-- current section is services information --> */
+
+    .services-information {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .services-padding {
+        margin-top: 3rem;
+    }
+
+    /* <!-- current section is transpotation process --> */
+
+    .process {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .members-caption {
+        padding-top: 7rem;
+    }
+
+    .members-caption p {
+        padding-bottom: 5rem;
+    }
+
+    /* <!-- current section is Features --> */
+
+    .features-1 {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .features-2 {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+}
+
+
+
+
+/* ====================== Media Quary ====================== */
+
+/* ====================== Tablet ======================= */
+
+@media only screen and (max-width: 768px) {
+
+
+    /* <!-- current section is services information --> */
+
+
+    .services-img-caption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-information img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .caption-area {
+        margin-top: 0px;
+    }
+
+    .services-padding {
+        align-items: stretch;
+    }
+
+    /* <!-- current section is features --> */
+
+    .strategies img {
+        left: 60px;
+    }
+
+    .strategies-caption h3 {
+        font-size: 13px;
+        padding-bottom: 12px;
+    }
+
+    .strategies-caption p {
+        font-size: 10px;
+        line-height: 13px;
+
+    }
+
+}
+
+
+
+
+
+/* ====================== Media Quary ====================== */
+
+/* ====================== Mobile - L ======================= */
+
+@media only screen and (max-width: 425px) {
+
+    /* <!-- current section is services information --> */
+
+    .services-information h3 {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .members-caption h3 {
+        font-size: 24px;
+        line-height: 32px;
+        padding-bottom: 20px;
+    }
+
+    .services-padding {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .services-information img {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    /* <!-- current section is transpotation process --> */
+
+    .step-left h5 {
+        font-size: 18px;
+    }
+
+    .step-left h3 {
+        font-size: 42px;
+    }
+
+    .step-caption h3 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .step-caption p br {
+        display: none;
+    }
+
+    .step-caption p {
+        font-size: 10px;
+    }
+
+    .step-icon img {
+        margin-right: 5px;
+    }
+
+    /* <!-- current section is features --> */
+
+    .strategies {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .strategies-caption {
+        padding: 40px 0 30px 0;
+    }
+
+    .strategies img {
+        left: 40vw;
+    }
+
+    .features-1 {
+        flex-direction: column;
+    }
+
+    .features-2 {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .strategies-caption h3 {
+        font-size: 26px;
+        padding-bottom: 24px;
+    }
+
+    .strategies-caption p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+/* ====================== Media Quary ====================== */
+
+/* ====================== Mobile - S ======================= */
+
+@media only screen and (max-width: 320px) {
+
+    /* <!-- current section is transpotation process --> */
+
+    .step {
+        flex-direction: column;
+        align-items: start;
+        height: 20rem;
+    }
+
+    .step-caption h3 {
+        padding-top: 2rem;
+    }
+
+
+    .step-caption {
+        text-align: center;
+        width: 100%;
+    }
+
+    .step-icon img {
+        position: relative;
+        top: -16rem;
+        left: 13rem;
+    }
+
+    .step-left {
+        margin: 0px;
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .step-caption p {
+        font-size: 15px;
+    }
+
+
+    /* <!-- current section is features --> */
+
+    .strategies img {
+        left: 35vw;
+    }
+}

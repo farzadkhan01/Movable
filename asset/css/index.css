@@ -1,0 +1,1583 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto Condensed;
+}
+
+/* =================== Hero Section ================ */
+
+/* toogle button */
+
+
+
+.checkbox input {
+    display: none;
+    visibility: hidden;
+}
+
+.toogle {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    background-color: rgba(82, 70, 50, 0.5);
+    cursor: pointer;
+    border-radius: 3px;
+    top: 26px;
+    left: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.checkbox>#check:checked {
+    transform: translateX(0px);
+
+}
+
+.common {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    background-color: #12C143;
+}
+
+.top-line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle-line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox input:checked~.toogle .top-line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+
+.checkbox input:checked~.toogle .bottom-line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+
+.checkbox input:checked~.toogle .middle-line {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.for-responsive {
+    display: none;
+}
+
+
+
+/* navbar */
+
+.first-section {
+    background-image: url('../images/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.image-overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: #00000047;
+}
+
+.hero-background img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-container {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 16px;
+}
+
+.hero-hr {
+    border: none;
+    height: 2px;
+    background-color: rgba(204, 214, 216, 0.5);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* first gmance */
+
+.pages-link a {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.contact-number a {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 21px;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contact-number a span {
+    color: #12c143;
+}
+
+.first-glance {
+    margin-top: 80px;
+    background-color: rgba(82, 70, 50, 0.5);
+    width: 660px;
+}
+
+.hero-caption {
+    padding: 45px 0 45px 40px;
+    width: 90%;
+}
+
+.hero-caption h3 span {
+    color: #12c143;
+}
+
+
+.hero-caption h3 {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.hero-caption p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 45px 0;
+}
+
+
+.hero-form input {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.77px;
+    padding: 20px 0px 20px 40px;
+    margin-bottom: 10px;
+    border: none;
+    position: relative;
+}
+
+.form-address {
+    width: 520px;
+}
+
+
+.hero-form-icons {
+    position: absolute;
+    z-index: 1;
+    margin-top: 16px;
+}
+
+.addres-img {
+    margin-top: 24px;
+    margin-left: -30px;
+}
+
+.from-img {
+    margin-left: -16rem;
+}
+
+.to-img {
+    margin-left: -17.3rem;
+}
+
+
+.hero-from {
+    width: 225px;
+}
+
+
+.hero-to {
+    width: 252px;
+}
+
+.hero-btn {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+    width: 563px;
+    padding: 16px 0;
+    background-color: rgba(18, 193, 67, 1);
+    border: none;
+}
+
+/* =================== COVID-19 ================ */
+
+.covid-19 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(82, 70, 50, 1);
+    color: #FFFFFF;
+    margin-top: -68px;
+}
+
+.covid-19 p,
+.covid-19 h3 {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 25px 0;
+}
+
+.covid-19 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.covid-19 h3 hr {
+    margin-left: 10px;
+    width: 50px;
+    border: 3px solid #12c143;
+    border-radius: 10px;
+}
+
+
+/* =================== About us ================ */
+
+.about-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.about-us-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us-caption {
+    padding-top: 45px;
+    padding-left: 40px;
+}
+
+.about-us-caption h5 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0, 1);
+    text-align: center;
+}
+
+.about-us-caption h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: rgb(0, 0, 0, 1);
+    padding: 25px 0;
+}
+
+.about-us-caption p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 1);
+}
+
+.about-us-caption button {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    border: 2px solid rgba(18, 193, 67, 1);
+    padding: 12px 45px;
+    background-color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* =================== Client logo ================ */
+
+.clients-company {
+    padding-left: 32rem;
+    padding-right: 32rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.clients-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* =================== Services ================ */
+
+.services {
+    padding-left: 30rem;
+    padding-right: 30rem;
+    text-align: center;
+    position: relative;
+    padding-top: 70px;
+}
+
+.services::after {
+    content: "";
+    background-color: rgba(243, 254, 246, 1);
+    position: absolute;
+    width: 835px;
+    height: 924px;
+    top: 0;
+    left: 28%;
+    z-index: -1;
+}
+
+.services-caption h5 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0, 1);
+    text-align: center;
+}
+
+.services-caption h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: rgb(0, 0, 0, 1);
+    padding: 25px 0;
+}
+
+.services-caption p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 1);
+
+}
+
+.services-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.services-img-caption img {
+    width: 100%;
+    height: 100%;
+}
+
+.caption-area {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -5px;
+    padding-left: 20px;
+}
+
+.caption-area h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 1);
+    padding: 10px 0;
+    text-align: start;
+}
+
+.caption-area p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 25px;
+    text-align: start;
+}
+
+.caption-area h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 20px;
+    text-align: start;
+}
+
+.caption-area hr {
+    margin-left: 10px;
+    width: 65px;
+    border: 2px solid #12c143;
+    border-radius: 10px;
+}
+
+.services-btn {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(18, 193, 67, 1);
+    border: none;
+    padding: 15px 50px;
+    margin-top: 75px;
+    margin-bottom: 15rem;
+
+}
+
+/* =================== Services ================ */
+
+.work {
+    padding-left: 30rem;
+}
+
+.work-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.work-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.work-caption h5 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0, 1);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+
+.work-caption h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: rgb(0, 0, 0, 1);
+}
+
+
+.work-caption p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 1);
+    padding-top: 30px;
+    padding-bottom: 65px;
+}
+
+.work-info {
+    display: flex;
+    justify-content: space-between;
+    width: 72rem;
+    background-color: #524632;
+    padding: 15px 0px;
+    margin-top: -100px;
+    position: absolute;
+}
+
+.work-info h3 {
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #12C143;
+}
+
+.work-info p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 20px;
+
+}
+
+.work-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.work-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+
+/* =================== Services ================ */
+
+.members-caption {
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.members-caption h5 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0, 1);
+}
+
+.members-caption h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: rgb(0, 0, 0, 1);
+    padding: 25px 0;
+}
+
+.members-caption p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 1);
+    padding-bottom: 4rem;
+}
+
+.company-members {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
+.member-info {
+    box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+
+.member-info p {
+    padding: 30px 15px 40px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 1);
+
+}
+
+
+.member-info h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: black;
+}
+
+.member-info h5 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #12C143;
+    padding-bottom: 25px;
+}
+
+/* =================== footer ================ */
+
+.footer-area {
+    padding-top: 15rem;
+    background-color: #524632;
+    margin-top: -130px;
+    padding-left: 18vw;
+    padding-right: 18vw;
+}
+
+.newsletter-area {
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+    align-items: end;
+}
+
+
+.newsletter-caption {
+    width: 100%;
+}
+
+.newsletter-caption h4 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    margin-left: 125px;
+}
+
+.newsletter-caption h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 25px 0;
+}
+
+.newsletter-caption p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.newsletter-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.newsletter-form input {
+    font-family: Roboto;
+    font-size: 14.33px;
+    font-weight: 400;
+    line-height: 21.5px;
+    color: #50505080;
+
+    width: 400px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.newsletter-form button {
+    width: 440px;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.4px;
+    text-align: center;
+    background-color: #12C143;
+
+}
+
+
+.footer-logo-caption img {
+    padding-bottom: 25px;
+}
+
+.footer-logo-caption p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+
+.footer-referances {
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links h3,
+.footer-services h3,
+.footer-contact-info h3 {
+    padding-bottom: 30px;
+}
+
+.footer-services {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a,
+.footer-services a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.footer-contact-info a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    padding-right: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 81px;
+    padding-top: 40px;
+}
+
+.copyright a {
+    color: #18E551;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Laptop-L ================================ */
+
+@media only screen and (max-width: 1440px) {
+
+
+    /* Work */
+
+
+    .work {
+        padding-left: 10rem;
+    }
+
+
+    /* Client comp */
+
+
+    .clients-company {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+
+
+    /* Services */
+
+
+    .services {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
+
+    .services::after {
+        left: 300px;
+    }
+
+
+    /* Tests */
+
+
+    .company-members {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+
+    .members-caption {
+        padding-top: 8rem;
+    }
+
+
+    /* Footer */
+
+
+
+    .footer-area {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+
+    .newsletter-caption p {
+        font-size: 12px;
+    }
+
+}
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Laptop ================================ */
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    /* hero container */
+
+    .hero-container {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+
+    /* <!-- Client logo --> */
+
+
+    .clients-company {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+
+    /* Services */
+
+    .services::after {
+        left: 100px;
+    }
+
+    .services {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+
+    /* <!-- Work --> */
+
+    .work {
+        padding-left: 3rem;
+    }
+
+    .work-info {
+        display: flex;
+        justify-content: space-between;
+        width: 50rem;
+    }
+
+    .work-caption h3 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .work-caption p {
+        font-size: 10px;
+    }
+
+
+    /* <!-- Tests --> */
+
+
+
+    .company-members {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+
+    /* footer */
+    .newsletter-form button {
+        width: 340px;
+    }
+
+    .footer-area {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .newsletter-form input {
+        width: 300px;
+    }
+
+
+}
+
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Tablet ================================ */
+
+@media only screen and (max-width: 768px) {
+
+    /* Navbar */
+
+    .for-responsive {
+        display: block;
+    }
+
+
+    .pages-link {
+        display: none;
+    }
+
+    .hero-container {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contact-number h3 {
+        margin-left: -50%;
+    }
+
+    /* COVID-19 */
+
+
+    .covid-19 {
+        justify-content: space-around;
+    }
+
+
+    /* work */
+
+
+    .work-area {
+        align-items: center;
+    }
+
+    .work-image {
+        width: 450px;
+    }
+
+    .work-info {
+        width: 42rem;
+        padding: 5px 0px;
+        margin-top: -70px
+    }
+
+    .work-1 {
+        padding-left: 15px;
+    }
+
+    .work-3 {
+        padding-right: 15px;
+    }
+
+    .work-caption p {
+        padding-top: 12px;
+        font-size: 8px;
+    }
+
+    .work-caption h5 {
+        padding-top: 0px;
+    }
+
+    .work-caption h3 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .work-info p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .work-info h3 {
+        font-size: 28px;
+    }
+
+
+    /* <!-- ABOUT US --> */
+
+
+
+    .about-us-caption h2 {
+        font-size: 28px;
+    }
+
+    .about-us-caption p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .about-para {
+        padding-top: 20px;
+    }
+
+    .about-us-caption {
+        padding-left: 2px;
+    }
+
+
+    /* clients comp */
+
+    .clients-company {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+
+    /* Services */
+
+
+    .services-img-caption img {
+        width: 90%;
+    }
+
+    .caption-area {
+        width: 90%;
+    }
+
+    .services-info {
+        text-align: justify;
+    }
+
+    .caption-area h3 {
+        font-size: 18px;
+        padding-left: 25px;
+    }
+
+    .caption-area p {
+        font-size: 10px;
+        padding-bottom: 15px;
+    }
+
+    .services::after {
+        width: 580px;
+        left: 83px;
+        height: 840px;
+    }
+
+    .service-style {
+        padding-top: 0px;
+    }
+
+
+    /* tests */
+
+
+    .member-info p {
+        padding: 30px 15px 40px 15px;
+        font-size: 11px;
+    }
+
+    /* footer */
+
+
+    .newsletter-form {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding-top: 35px;
+    }
+
+    .newsletter-area {
+        display: block;
+        text-align: center;
+    }
+
+    .newsletter-form input {
+        width: 300px;
+    }
+
+    .newsletter-form button {
+        width: 340px;
+    }
+
+    .copyright {
+        padding-bottom: 50px;
+    }
+}
+
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Mobile - L ================================ */
+
+@media only screen and (max-width: 425px) {
+
+    /* Navbar */
+
+
+    .contact-number h3 {
+        display: none;
+    }
+
+    .hero-container {
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+
+    .hero-caption h3 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 45px;
+
+    }
+
+    .hero-caption p {
+        font-size: 11px;
+        padding: 20px 0;
+    }
+
+    .hero-caption {
+        padding: 25px 0 25px 25px;
+    }
+
+    .first-glance {
+        width: 400px;
+    }
+
+    .form-address {
+        width: 83%;
+    }
+
+    .hero-from {
+        width: 125px;
+    }
+
+    .hero-to {
+        width: 125px;
+    }
+
+    .hero-btn {
+        width: 95%;
+    }
+
+
+    /* Covid - 19 */
+
+
+    .covid-19 h3 {
+        margin-left: 0px;
+    }
+
+    .covid-19 p,
+    .covid-19 h3 {
+        font-size: 10px;
+        padding: 25px 0;
+    }
+
+
+    /* about us */
+
+
+    .about-area {
+        display: block;
+        padding-top: 25px;
+    }
+
+    .about-us-caption {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .about-para {
+        padding-top: 0px;
+    }
+
+    .about-us-caption h2 {
+        line-height: 35px;
+        padding: 30px 0;
+    }
+
+
+    .clients-logo img {
+        width: 70%;
+        height: 100%;
+    }
+
+    .clients-company {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+
+    /* Services */
+
+
+    .services {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .services::after {
+        width: 350px;
+        left: 30px;
+        height: 1600px;
+    }
+
+    .services-caption h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .services-caption p {
+        font-size: 12px;
+    }
+
+    .services-info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 70px;
+        row-gap: 30px;
+    }
+
+    .services-img-caption img {
+        width: 100%;
+    }
+
+    .caption-area {
+        width: 100%;
+        text-align: center;
+    }
+
+    .caption-area p {
+        font-size: 16px;
+        padding-bottom: 15px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .caption-area h3 {
+        font-size: 26px;
+        padding-left: 0px;
+    }
+
+    .caption-area h5 {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .services-btn {
+        margin-bottom: 10rem;
+    }
+
+
+    /* Work */
+
+
+    .work-info {
+        width: 100%;
+        margin-top: -354px;
+    }
+
+    .work-image {
+        width: 100%;
+    }
+
+    .work {
+        padding-left: 0rem;
+    }
+
+    .work-area,
+    .work-1,
+    .work-2,
+    .work-3 {
+        flex-direction: column;
+        padding-right: 0px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .work-info p {
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+
+    /* <!-- Client logo --> */
+
+
+    .company-members {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .members-caption p br {
+        display: none;
+    }
+
+    .member-info p {
+        font-size: 16px;
+    }
+
+    .member-info h4,
+    .member-info h5 {
+        font-size: 18px;
+    }
+
+    .member-info {
+        margin-bottom: 21px;
+    }
+
+
+    /* footer */
+
+    .footer-area {
+        padding-top: 10rem;
+
+    }
+
+    .footer-referances {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo-caption {
+        padding-bottom: 35px;
+    }
+
+    .footer-logo-caption img {
+        padding-bottom: 15px;
+    }
+
+    .footer-links h3,
+    .footer-services h3,
+    .footer-contact-info h3 {
+        padding-bottom: 15px;
+    }
+
+    .footer-services {
+        padding: 35px 0px;
+    }
+
+    .footer-contact-info {
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Mobile - M ================================ */
+
+@media only screen and (max-width: 375px) {
+
+
+    /* Navbar */
+
+    .first-glance {
+        width: 100%;
+    }
+
+    /* first-glance */
+
+    .hero-caption {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .hero-from {
+        width: 116px;
+    }
+
+    .hero-to {
+        width: 116px;
+    }
+
+
+    /* COVID - 19 */
+
+
+    .covid-19 p,
+    .covid-19 h3 {
+        font-size: 14px;
+    }
+
+    .covid-19 {
+        flex-direction: column;
+    }
+
+    .covid-19 p {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .covid-19 h3 hr {
+        width: 35px;
+        border: 3px solid #12c143;
+    }
+
+    .covid-19 h3 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    /* about - us */
+
+    .about-us-caption p br {
+        display: none;
+    }
+
+
+
+    /* Services */
+
+
+    .services-caption p br {
+        display: none;
+    }
+
+
+
+    /* Work */
+
+
+    .work-info {
+        width: 100%;
+        margin-top: -307px;
+    }
+
+    .work-caption h3 {
+        line-height: 35px
+    }
+
+    .work-caption p {
+        padding-top: 12px;
+        font-size: 12px;
+    }
+
+
+    /* Services */
+
+    .services::after {
+        width: 100%;
+        left: 0;
+    }
+
+
+    /* Test  */
+
+
+    .members-caption {
+        text-align: center;
+        padding-top: 7rem;
+    }
+
+
+}
+
+
+
+
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Mobile  ================================ */
+
+@media only screen and (max-width: 320px) {
+
+
+
+    /* first glance */
+
+    .hero-caption p br {
+        display: none;
+    }
+
+
+    .hero-from {
+        width: 93px;
+    }
+
+    .hero-to {
+        width: 93px;
+    }
+
+    .hero-form input {
+        padding: 15px 25px 15px 10px;
+    }
+
+    .form-address {
+        width: 79%;
+    }
+
+    .hero-btn {
+        width: 93%;
+    }
+
+
+
+    /* COVID - 19 */
+
+    .covid-19 p,
+    .covid-19 h3 {
+        font-size: 11px;
+    }
+
+
+
+
+
+
+
+    /* Footer */
+
+    .newsletter-form input {
+        width: 260px;
+    }
+
+    .newsletter-form button {
+        width: 300px;
+    }
+
+
+
+
+
+
+
+}

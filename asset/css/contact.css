@@ -1,0 +1,221 @@
+/* =================== navbar ================= */
+
+.contact-first-glance {
+    background-image: url('../images/contact-first-glance.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* =================== navbar ================= */
+.uppercaption {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.uppercaption h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+    color: rgb(0, 0, 0, 1);
+    padding: 25px 0;
+}
+
+.uppercaption a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #232323;
+    padding: 6px 0;
+}
+
+.contact-social-media img {
+    padding: 5px 3px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    padding-right: 12px;
+}
+
+.style {
+position: absolute;}
+
+
+/* =================== Get in Touch ================= */
+
+.form-and-maps {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 17vw;
+    padding-right: 17vw;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form input {
+    padding: 15px 0px 15px 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.form select {
+    padding: 15px 0 15px 20px;
+    border: 1px solid rgb(179, 179, 179);
+
+}
+
+.form textarea {
+    height: 165px;
+    margin-top: 20px;
+    padding: 15px 0 0 20px;
+    border: 1px solid rgb(179, 179, 179);
+
+}
+
+.form button {
+    background-color: #12C143;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    border: none;
+    padding: 12px 0;
+    margin-top: 20px;
+}
+
+.map {
+    width: 100%;
+    text-align: end;
+    margin-left: 30px;
+}
+
+.maps-iframe {
+    width: 100%;
+
+}
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Laptop - L ================================ */
+
+@media only screen and (max-width : 1440px) {
+
+    .center {
+        width: 25%;
+    }
+
+
+
+
+
+}
+
+
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Laptop ================================ */
+
+@media only screen and (max-width : 1024px) {
+
+    /* first-glance */
+
+
+    .center h3 {
+        font-size: 48px;
+    }
+
+    .center {
+        width: 35%;
+    }
+
+    /* <!-- Get in touch --> */
+    .form-and-maps {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+}
+
+
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Mobile - L ================================ */
+
+@media only screen and (max-width : 425px) {
+
+
+
+    /* First Glance */
+
+    .center {
+        width: 50%;
+    }
+
+    .center h3 {
+        font-family: Roboto Condensed;
+        font-size: 32px;
+    }
+
+    /* <!-- Get in touch --> */
+
+
+    .form-and-maps {
+        flex-direction: column;
+    }
+
+    .map {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+}
+
+
+
+
+
+/* ===========================  media quaries =========================== */
+
+/* =========================== Mobile - S ================================ */
+
+@media only screen and (max-width : 320px) {
+
+
+    /* First Glance */
+
+    .center {
+        width: 60%;
+        margin-left: 23%;
+
+    }
+
+    .center h3 {
+        font-size: 28px;
+    }
+
+
+
+
+
+}
