@@ -1144,258 +1144,329 @@ body {
 
     /* Navbar */
 
-
-    .contact-number h3 {
+    .contact-number a {
         display: none;
     }
+
+    .hero-caption h3 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .hero-caption p br {
+        display: none;
+    }
+
+    /* first glance */
 
     .hero-container {
         margin-left: 0vw;
         margin-right: 0vw;
     }
 
-    .hero-caption h3 {
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 45px;
-
+    .hero-caption {
+        padding: 40px 0 40px 25px;
     }
+
+
 
     .hero-caption p {
-        font-size: 11px;
-        padding: 20px 0;
-    }
-
-    .hero-caption {
-        padding: 25px 0 25px 25px;
+        font-size: 20px;
+        padding: 30px 0;
     }
 
     .first-glance {
-        width: 400px;
-    }
-
-    .form-address {
-        width: 83%;
-    }
-
-    .hero-from {
-        width: 125px;
-    }
-
-    .hero-to {
-        width: 125px;
-    }
-
-    .hero-btn {
+        margin-top: 55px;
+        margin-left: 10px;
         width: 95%;
     }
 
+    .form-address {
+        width: 86%;
+    }
 
-    /* Covid - 19 */
+    .hero-from {
+        width: 36%;
+    }
+
+    .from-img {
+        margin-left: 3vw;
+    }
+
+    .hero-to {
+        width: 36%;
+    }
+
+    .to-img {
+        margin-left: -80vw;
+    }
+
+    .hero-btn {
+        width: 98%;
+    }
 
 
-    .covid-19 h3 {
-        margin-left: 0px;
+    /* COVID- 19 */
+
+    .covid-19 {
+        justify-content: center;
+        margin-top: -60px;
+
     }
 
     .covid-19 p,
     .covid-19 h3 {
-        font-size: 10px;
-        padding: 25px 0;
+        font-size: 8px;
+        padding: 20px 0;
+    }
+
+    .covid-19 h3 {
+        margin-left: 18px;
     }
 
 
-    /* about us */
-
+    /* About us */
 
     .about-area {
-        display: block;
-        padding-top: 25px;
+        flex-direction: column;
     }
 
     .about-us-caption {
-        padding-left: 0;
+        padding-left: 0px;
         text-align: center;
     }
 
-    .about-para {
-        padding-top: 0px;
+    .about-us-caption p {
+        padding-bottom: 14px;
     }
 
-    .about-us-caption h2 {
-        line-height: 35px;
-        padding: 30px 0;
+    .about-us-caption p br {
+        display: none;
     }
 
+    .about-us-caption button {
+        margin-top: 25px;
+    }
+
+    /* clients logo */
+
+    .clients-images {
+        text-align: center;
+    }
 
     .clients-logo img {
-        width: 70%;
+        width: 80%;
         height: 100%;
+
     }
 
     .clients-company {
-        padding-left: 15px;
-        padding-right: 0;
-    }
-
-
-    /* Services */
-
-
-    .services {
         padding-left: 0rem;
         padding-right: 0rem;
     }
 
+    /* services */
+
     .services::after {
-        width: 350px;
+        width: 320px;
         left: 30px;
-        height: 1600px;
-    }
-
-    .services-caption h2 {
-        font-size: 28px;
-        line-height: 35px;
-    }
-
-    .services-caption p {
-        font-size: 12px;
+        height: 1560px;
     }
 
     .services-info {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        padding-top: 70px;
-        row-gap: 30px;
+    }
+
+    .services-caption p br {
+        display: none;
+    }
+
+    .services {
+        padding-top: 50px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .services-btn {
+        margin-bottom: 8rem;
+    }
+
+    .services-info {
+        padding-top: 0;
+    }
+
+    .services-caption h2 {
+        font-size: 35px;
+        line-height: 40px;
     }
 
     .services-img-caption img {
         width: 100%;
+        margin-top: 30px;
     }
 
     .caption-area {
         width: 100%;
-        text-align: center;
-    }
-
-    .caption-area p {
-        font-size: 16px;
-        padding-bottom: 15px;
-        text-align: center;
         padding-left: 0;
     }
 
     .caption-area h3 {
-        font-size: 26px;
         padding-left: 0px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .caption-area p {
+        text-align: center;
+        font-size: 14px;
     }
 
     .caption-area h5 {
         justify-content: center;
-        padding-left: 0;
+        font-size: 16px;
+        line-height: 16px;
     }
-
-    .services-btn {
-        margin-bottom: 10rem;
-    }
-
 
     /* Work */
 
+    .work {
+        padding: 0;
+    }
+
+    .work-caption {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+
+    .work-caption h3 br {
+        display: none;
+    }
+
+    .work-caption h3 {
+        font-size: 35px;
+        padding: 25px 0;
+    }
+
+    .work-caption h5 {
+        padding-bottom: 0;
+    }
+
+    .work-caption p br {
+        display: none;
+    }
+
+    .work-caption p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: rgb(0, 0, 0, 1);
+        padding: 0;
+        padding-bottom: 7rem;
+    }
 
     .work-info {
-        width: 100%;
-        margin-top: -354px;
+        text-align: center;
+    }
+
+    .work-1 {
+        flex-direction: column;
+        padding-left: 0;
+
+    }
+
+    .work-2 {
+        flex-direction: column;
+    }
+
+    .work-3 {
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .work-info p {
+        padding: 0;
+    }
+
+    .work-area {
+        flex-direction: column;
+        text-align: center;
     }
 
     .work-image {
         width: 100%;
     }
 
-    .work {
-        padding-left: 0rem;
+    .work-info {
+        width: 98vw;
+        margin-top: -21rem;
     }
 
-    .work-area,
-    .work-1,
-    .work-2,
-    .work-3 {
-        flex-direction: column;
-        padding-right: 0px;
-        padding-left: 0;
-        text-align: center;
-    }
+    /* <!-- Tests --> */
 
-    .work-info p {
-        padding-left: 0;
-        font-size: 12px;
-    }
-
-
-    /* <!-- Client logo --> */
-
-
-    .company-members {
-        flex-direction: column;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .members-caption p br {
-        display: none;
+    .members-caption {
+        padding-top: 7rem;
     }
 
     .member-info p {
+        padding: 30px 15px 40px 15px;
         font-size: 16px;
     }
 
-    .member-info h4,
-    .member-info h5 {
-        font-size: 18px;
+    .company-members {
+        flex-direction: column;
+    }
+
+    .members-caption h3 {
+        font-size: 35px;
     }
 
     .member-info {
-        margin-bottom: 21px;
+        margin-bottom: 1.5rem;
     }
 
 
     /* footer */
 
-    .footer-area {
-        padding-top: 10rem;
-
-    }
-
     .footer-referances {
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
 
-    .footer-logo-caption {
-        padding-bottom: 35px;
+    .newsletter-caption h4 {
+        margin: 0;
     }
 
-    .footer-logo-caption img {
-        padding-bottom: 15px;
+    .newsletter-caption p br {
+        display: none;
+    }
+
+    .newsletter-caption p {
+        font-size: 16px;
     }
 
     .footer-links h3,
     .footer-services h3,
     .footer-contact-info h3 {
-        padding-bottom: 15px;
-    }
-
-    .footer-services {
-        padding: 35px 0px;
-    }
-
-    .footer-contact-info {
         padding-bottom: 30px;
+        padding-top: 25px;
     }
+
+    .footer-contact-info a {
+        justify-content: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+
+
+
+
 }
+
 
 
 
@@ -1406,106 +1477,61 @@ body {
 
 @media only screen and (max-width: 375px) {
 
-
-    /* Navbar */
-
-    .first-glance {
-        width: 100%;
-    }
-
     /* first-glance */
 
-    .hero-caption {
-        padding: 20px 0px 20px 20px;
+    .hero-caption h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .form-address {
+        width: 85%;
     }
 
     .hero-from {
-        width: 116px;
+        width: 34.5%;
     }
 
     .hero-to {
-        width: 116px;
+        width: 34.3%;
     }
-
-
-    /* COVID - 19 */
-
-
-    .covid-19 p,
-    .covid-19 h3 {
-        font-size: 14px;
-    }
-
-    .covid-19 {
-        flex-direction: column;
-    }
-
-    .covid-19 p {
-        padding-top: 10px;
-        padding-bottom: 0px;
-    }
-
-    .covid-19 h3 hr {
-        width: 35px;
-        border: 3px solid #12c143;
-    }
-
-    .covid-19 h3 {
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-
-    /* about - us */
-
-    .about-us-caption p br {
-        display: none;
-    }
-
-
-
-    /* Services */
-
-
-    .services-caption p br {
-        display: none;
-    }
-
-
-
-    /* Work */
-
-
-    .work-info {
-        width: 100%;
-        margin-top: -307px;
-    }
-
-    .work-caption h3 {
-        line-height: 35px
-    }
-
-    .work-caption p {
-        padding-top: 12px;
-        font-size: 12px;
-    }
-
 
     /* Services */
 
     .services::after {
-        width: 100%;
-        left: 0;
+        width: 100vw;
+        left: 0px;
+        height: 1560px;
+    }
+
+    /* Work */
+
+    .work-info {
+        width: 100vw;
+        margin-top: -18.8rem;
+    }
+
+    .members-caption p br {
+        display: none;
+    }
+
+    .member-info p br {
+        display: none;
     }
 
 
-    /* Test  */
+    /* footer */
 
-
-    .members-caption {
-        text-align: center;
-        padding-top: 7rem;
+    .newsletter-form input {
+        width: 260px;
+        padding: 15px 0px 15px 20px;
     }
 
+    .newsletter-form button {
+        width: 280px;
+        padding: 15px 0px 15px 20px;
+
+    }
 
 }
 
@@ -1522,7 +1548,16 @@ body {
 
 
 
+    .toogle {
+        left: 85%;
+    }
+
     /* first glance */
+
+
+    .hero-caption h3 {
+        font-size: 28px;
+    }
 
     .hero-caption p br {
         display: none;
@@ -1538,15 +1573,30 @@ body {
     }
 
     .hero-form input {
-        padding: 15px 25px 15px 10px;
+        padding: 15px 0px 14px 35px;
     }
 
     .form-address {
-        width: 79%;
+        width: 82%;
     }
 
+
+    .to-img {
+        margin-left: -78vw;
+    }
+
+    .hero-form-icons {
+        margin-top: 13px;
+    }
+
+    .addres-img {
+        margin-top: 20px;
+        margin-left: -28px;
+    }
+
+
     .hero-btn {
-        width: 93%;
+        width: 95%;
     }
 
 
