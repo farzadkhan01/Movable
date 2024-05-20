@@ -326,6 +326,7 @@ body {
 
 
 
+
     .center {
         width: 50%;
         margin-left: 30%;
@@ -337,23 +338,46 @@ body {
         padding-bottom: 15px;
     }
 
+    .about-work-area {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     .about-work-area h3 br {
         display: none;
     }
 
-    .tranport-images::after {
-        width: 55%;
-        height: 25%;
-        top: 1210px;
+    .work-info {
+        width: 100vw;
     }
 
-    .work-caption p {
-        padding-top: 30px;
+
+    .tranport-images {
+        width: 100%;
+    }
+
+    .tranport-images::after {
+        width: 63%;
+        height: 20%;
+        top: 92rem;
+        left: 70px;
     }
 
     .work-caption p {
         padding-top: 0px;
-        font-size: 10px;
+        font-size: 16px;
+    }
+
+    .caption-area h3 {
+        font-size: 26px;
+    }
+
+    .members-caption p br {
+        display: none;
+    }
+
+    .caption-area p {
+        font-size: 16px;
     }
 
     .transportaion-images {
@@ -395,9 +419,10 @@ body {
     }
 
     .tranport-images::after {
-        width: 55%;
-        height: 20%;
-        top: 1240px;
+        width: 60%;
+        height: 16%;
+        top: 98rem;
+        left: 71px;
     }
 }
 
@@ -417,9 +442,10 @@ body {
     }
 
     .tranport-images::after {
-        width: 50%;
-        height: 11%;
-        top: 1345px;
+        width: 60%;
+        height: 9%;
+        top: 107rem;
+        left: 62px;
     }
 
 

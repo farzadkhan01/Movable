@@ -1194,7 +1194,7 @@ body {
     }
 
     .hero-to {
-        width: 36%;
+        width: 38%;
     }
 
     .to-img {
@@ -1235,9 +1235,12 @@ body {
         padding-left: 0px;
         text-align: center;
     }
-
     .about-us-caption p {
-        padding-bottom: 14px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        padding-top: 0;
+        padding-bottom: 12px;
     }
 
     .about-us-caption p br {
@@ -1246,6 +1249,11 @@ body {
 
     .about-us-caption button {
         margin-top: 25px;
+    }
+
+    .about-us-caption h2 {
+        font-size: 35px;
+        line-height: 40px;
     }
 
     /* clients logo */
@@ -1268,7 +1276,7 @@ body {
     /* services */
 
     .services::after {
-        width: 320px;
+        width: 85%;
         left: 30px;
         height: 1560px;
     }
